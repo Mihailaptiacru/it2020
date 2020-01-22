@@ -1,4 +1,4 @@
-/**body {
+body {
   font-family: "Lato", sans-serif;
   color: #002538;
   background-color: #f9f9f9;
@@ -7,10 +7,9 @@
 .contanier {
   width: 100%;
   max-width: 1200px;
-  position: relative;
+ /** position: relative;**/
   margin: 0 auto;
 }
-
 .inline {
   display: inline-block;
 }
@@ -74,7 +73,7 @@
 }
 
 .navbar .funzone {
-  margin-top: 150px;
+  margin-top: 40vh;
   width: 250px;
   height: 45px;
   color: #fd7563;
@@ -107,8 +106,8 @@
 
 .marfa {
   width: 800px;
-  position: absolute;
-  right: 0;
+  /**position: absolute;**/
+  float: right;
 }
 
 .marfa .img {
@@ -161,5 +160,32 @@
 
 
 .footer {
+  float: right;
+  width: 750px;
+  margin-top: 20px;
+  margin-right: 400px;
+  border-top: 2px solid #9999;
   
-}**/
+}
+
+.footer .about_us {
+  margin-top: 20px;
+  font-size: 13px;
+}
+.footer .about_us a{
+  text-decoration: none;
+  color: #002538;
+  padding-left: 15px;
+  margin-left: -10px;
+  
+
+}
+.footer .pay {
+  margin-top: -15px;
+ 
+  float: right;
+}
+
+.footer .apss {
+  margin-top: 20px;
+}
